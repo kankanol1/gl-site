@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>客户信息页面</title>
+    <link rel="shortcut icon" href="./../img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./../css/bootstrap.css">
+    <link rel="stylesheet" href="./../css/bootstrap-theme.css">
+    <link rel="stylesheet" href="./../css/reset.css">
+    <link rel="stylesheet" href="./../css/index.css">
+    <link rel="stylesheet" href="../css/verify.css">
+    <style>
+        #contact{
+            /*text-align: center;*/
+            width: 270px;
+            margin: 10px auto;
+            position: relative;
+
+        }
+        .sty{
+            border: 1px solid #999;
+            padding: 2px 10px;
+            margin: 10px 5px;
+            width: 220px;
+        }
+        #norm{
+            margin: 0 auto;
+            width: 250px;
+        }
+        #text{
+            width: 270px;
+            padding: 5px;
+            /*text-indent: 30px;*/
+        }
+        #button{
+            width: 270px;
+            border: 1px solid #999;
+            padding: 2px 10px;
+        }
+
+        label{
+            /*position: relative;*/
+        }
+        label::before{
+            content: '*';
+            position: absolute;
+            color: red;
+            left: -10px;
+        }
+        .ps{
+            color: red;}
+    </style>
+</head>
+<body>
+<!------------------------------------------header--------------------------------------------------->
+<div id="header">
+
+    <!---------------------------------------nav---------------------------------------------->
+    <nav class="navBarA">
+        <div class="img"><img src="./../img/logo.jpg" alt=""></div>
+        <div class="item">
+            <ul class="itemU">
+                <li class="item">
+                    <a href="./../index.html">首页</a>
+                </li>
+                <li class="item">
+                    <a href="./product.html">核心产品</a>
+                    <ul>
+                        <li class="er"><a href="./product.html">TariDB 平台</a></li>
+                        <li class="er"><a href="./productA.html">GAIA 平台</a></li>
+                    </ul>
+                </li>
+
+                <li class="item">
+                    <a href="././scheme.html">解决方案</a>
+                    <ul>
+                        <li class="er"><a href="./schemesj.html">智能审计</a></li>
+                        <!--<li class="er"><a href="./schemezc.html">智能侦查</a></li>-->
+                        <!--<li class="er"><a href="./schemefz.html">嫌疑度分析</a></li>-->
+                        <li class="er"><a href="./schemejt.html">智能交通</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a href="./about-us.html">关于我们</a>
+                    <ul>
+                        <li class="er"><a href="./about-us.html">公司介绍</a></li>
+                        <li class="er"><a href="./about-us.html">创始人</a></li>
+                        <li class="er"><a href="./about-us.html">荣誉资质</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a href="./join-us.html">加入我们</a>
+                    <ul>
+                        <li class="er"><a href="./hadoop.html">Hadoop/HBase研发</a></li>
+                        <li class="er"><a href="./java.html">高级JAVA研发</a></li>
+                        <li class="er"><a href="./alog.html">图像算法研发</a></li>
+                        <li class="er"><a href="./web.html">Web前端开发</a></li>
+                        <li class="er"><a href="./student.html">应届生/实习生</a></li>
+                    </ul>
+
+                </li>
+                <li class="active item">
+                    <a href="javascript:;">联系我们</a>
+
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+</div>
+
+<!------------------------------------------bar--------------------------------------------------->
+
+<div id="contact">
+
+    <h2>联系我们</h2>
+    <label for="name">姓名:</label>
+    <input type="text" id="name" class="sty" autocomplete="off"><br>
+    <p class="nreg ps"></p>
+    <label for="company">公司:</label>
+    <input type="text" id="company" class="sty" autocomplete="off"><br>
+    <p class="creg ps"></p>
+    <label for="email">邮箱:</label>
+    <input type="text" id="email" class="sty" autocomplete="off"><br>
+    <p class="ereg ps" > </p>
+    <label for="phone">电话:</label>
+    <input type="text" id="phone" class="sty" autocomplete="off"><br>
+    <p class="preg ps"></p>
+    <label for="text">想了解什么/想解决什么问题:</label><br>
+    <textarea
+            name=""
+            id="text"
+            cols="30"
+            rows="8"
+            placeholder="想了解什么/想解决什么问题"
+    ></textarea>
+
+    <div id="norm"></div>
+
+    <input type="button" id="button" class="verify-btn" value="提交">
+
+</div>
+
+
+
+
+<!-------------------------------------------footer-------------------------------------------------------->
+<div id="footer">
+    <hr class="hr">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-3 item">
+                <h5>核心产品</h5>
+                <ul>
+                    <li><a href="./product.html">TariDB 平台</a></li>
+                    <li><a href="./productA.html">GAIA 平台</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3 item">
+                <h5>解决方案</h5>
+                <ul>
+                    <li><a href="./schemesj.html">智能审计分析</a> </li>
+                    <li><a href="./schemezc.html">公检监智能侦查</a></li>
+                    <li><a href="./schemefz.html">犯罪嫌疑度分析</a></li>
+                    <li><a href="./schemejt.html">观澜智能交通</a></li>
+
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3 item">
+                <h5>关于我们</h5>
+                <ul>
+                    <li><a href="./about-us.html">公司介绍</a></li>
+                    <li><a href="./about-us.html">创始人</a></li>
+                    <li><a href="./about-us.html">荣誉资质</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-3 item">
+                <h5>加入我们</h5>
+                <ul>
+                    <li><a href="./hadoop.html">Hadoop/HBase研发</a></li>
+                    <li><a href="java.html">高级JAVA研发</a></li>
+                    <li><a href="./alog.html">图像算法研发</a></li>
+                    <li><a href="./web.html">Web前端开发</a></li>
+                    <li><a href="./student.html">应届生/实习生</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="bottom">
+
+        <ul class="info">
+            <li class="active"><a href="javascript:;">法律声明</a>
+                <span>|</span>
+                <a href="javascript:;">隐私保护</a>
+                <span>|</span>
+                <a href="javascript:;">济南观澜数据公司版权所有 ©2012-2017</a>
+                <span>|</span>
+                <a href="javascript:;">鲁ICP备05019369号</a>
+            </li>
+        </ul>
+        <p><img src="./../img/jinghui.png" alt=""><span>鲁公网安备 37011202000211号</span></p>
+    </div>
+
+
+</div>
+
+
+<!-------------------------------------------/footer-------------------------------------------------------->
+
+<!----------------connectBox------------------------>
+<div id="connectBox">
+    <div class="show">
+        <img src="../img/phone.png" alt="">
+        <span>咨</span>
+        <span>询</span>
+
+        <div class="info">
+            <div class="co">
+                <p>
+                    联 &nbsp;系&nbsp; 人：李&nbsp;&nbsp;欣
+                </p>
+                <p>联系电话：0531-88796868</p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    13361002065</p>
+                <p>联系邮箱：lixin@gl-data.com</p>
+                <p>人才招聘：hr@gl-data.com</p>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+<!----------------/connectBox------------------------>
+
+
+
+
+
+<script src="./../js/jquery-3.3.1.js"></script>
+<script src="./../js/bootstrap.js"></script>
+<script src="./../js/index.js"></script>
+<script src="../js/aboutus.js"></script>
+<script src="./../js/verify.js"></script>
+<script src="./../js/login.js"></script>
+</body>
+</html>

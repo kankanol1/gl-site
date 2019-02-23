@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>观澜数据</title>
+    <link rel="shortcut icon" href="./../img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./../css/bootstrap.css">
+    <link rel="stylesheet" href="./../css/bootstrap-theme.css">
+    <link rel="stylesheet" href="./../css/reset.css">
+    <link rel="stylesheet" href="./../css/index.css">
+</head>
+<body>
+
+<!------------------------------------------header--------------------------------------------------->
+<div id="header">
+
+    <!---------------------------------------nav---------------------------------------------->
+    <nav class="navBarA">
+        <div class="img"><img src="./../img/logo.jpg" alt=""></div>
+        <div class="item">
+            <ul class="itemU">
+                <li class="item">
+                    <a href="./../index.html">首页</a>
+                </li>
+                <li class="active item">
+                    <a href="javascript:;">核心产品</a>
+                    <ul>
+                        <li class="er"><a href="./product.html">TariDB 平台</a></li>
+                        <li class="er"><a href="./productA.html">GAIA 平台</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a href="././scheme.html">解决方案</a>
+                    <ul>
+                        <li class="er"><a href="./schemesj.html">智能审计</a></li>
+                        <!--<li class="er"><a href="./schemezc.html">智能侦查</a></li>-->
+                        <!--<li class="er"><a href="./schemefz.html">嫌疑度分析</a></li>-->
+                        <li class="er"><a href="./schemejt.html">智能交通</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a href="./about-us.html">关于我们</a>
+                    <ul>
+                        <li class="er"><a href="./about-us.html">公司介绍</a></li>
+                        <li class="er"><a href="./about-us.html">创始人</a></li>
+                        <li class="er"><a href="./about-us.html">荣誉资质</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a href="./join-us.html">加入我们</a>
+                    <ul>
+                        <li class="er"><a href="./hadoop.html">Hadoop/HBase研发</a></li>
+                        <li class="er"><a href="./java.html">高级JAVA研发</a></li>
+                        <li class="er"><a href="./alog.html">图像算法研发</a></li>
+                        <li class="er"><a href="./web.html">Web前端开发</a></li>
+                        <li class="er"><a href="./student.html">应届生/实习生</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+
+                    <a href="./login.html">联系我们</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+</div>
+<!------------------------------------------bar--------------------------------------------------->
+
+<!------------------product---------------------->
+<div id="product">
+    <!--<div class="imgTop">-->
+        <img src="./../img/product_new.jpg" alt="">
+<!--</div>-->
+    <h1>核心产品</h1>
+    <!--<hr>-->
+
+    <div id="tari">
+        <h2>TariDB 大数据底层管理平台</h2>
+
+        <hr>
+        <div class="intro">
+            <h3>产品介绍</h3>
+            <div>
+                <div>
+                    <p>
+                        TariDB大数据平台是团队自主研发完成的，基于分布式架构实现海量数据高效存储和实时分析的大数据管理平台。其并行编程框架能够有效结合批处理和实时处理任务，让并行应用程序运行更加简化，可针对各行业需求，高效快捷完成海量数据背景下业务功能的开发。
+                    </p>
+                </div>
+                <div>
+                    <img src="../img/product1.png" alt="">
+                </div>
+            </div>
+           
+
+        </div>
+
+        <div class="neng">
+            <h3>主要功能</h3>
+            <hr>
+            <div class="container">
+                <div class="row res">
+                    <div class="item">
+                        <h4>高可用TB级数据存储，支持横向拓展</h4>
+                        <p class="mar">Taridb系统采用集群方式存储TB级数据，通过采用Hadoop、HBase作为底层数据存储支撑，在此基础上进行有针对性的改良和优化，具有访问延迟低、稳定性高、拓展性强、存储设备费用低廉等特点和显著优势，特别适合具有半结构化数据结构、高密度数据接入、低时间延迟数据访问需求的业务体系。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h4>大批量数据统计与分析，专业数据图表展示</h4>
+                        <p class="mar">在提供TB级别大数据存储功能的基础上，Taridb系统还提供了基于这些TB级数据进行统计与分析的能力，协助用户挖掘数据当中隐藏规律和潜在的商业价值，让用户存储的数据真正地发挥其作用。为此，Taridb特别设计了子系统Taurus，支持各种大批量的数据统计业务和分析业务，如综合条件查询、模糊查询、系统数据流量统计、分类聚合统计等常见的统计业务，以及数据检测与分析、数据行为模式挖掘、数据比对分析、动态聚类等成熟的具有明显商业应用价值的数据服务。
+                        </p>
+                    </div>
+                    <div class="item">
+                    <h4>支持实时数据分析与处理</h4>
+                        <p class="mar">
+                            Taridb系统在常用的Apache Storm流式数据处理引擎上，自主设计实现了Taridb Stream实时流数据处理系统，不仅能够提供实时的、高效的数据统计与分析业务，不间断地、高效地挖掘当前数据的价值，甚至还可以与历史数据结合进行分析，支持实时报表和可视化展示。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h4>人性化的用户界面</h4>
+                        <p class="mar">
+                            Taridb系统在基本的数据存储和分析系统之上，提供了一个直观易用的人性化用户界面，将查询功能、分析功能、报表和可视化功能等集成在用户界面上，使得用户可以直观地、便捷地进行操作和业务定制。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h4>一键式综合运维，解决客户的后顾之忧</h4>
+                        <p class="mar">Tarib系统则提供了一个强大的一键式综合运维系统，包括系统实时监控，故障检测报警和一键式重启与升级。
+                        </p>
+                    </div>
+                </div>
+            </div>
+         <!--   <img src="../img/gongneng.png" alt="">-->
+        </div>
+        <div class="skill">
+            <h3>关键技术</h3>
+            <hr>
+            <div class="container">
+                <div class="item">
+                    <div class="item">
+                        <h4>大数据的接入与融合</h4>
+                        <p>大数据来源分布广泛、组织方式各异、数据形式多种多样，其接入、汇聚方法亦各不相同，TariDB适配接入思想，构建基于总线的数据接入环境，通过云计算平台的广泛分布的数据接入节点实现各类大数据向数据中心的汇聚。
+                        </p>
+                        <p>
+                            为了保证融合数据的准确性和可扩展性，TariDB平台提出一种基于Markov逻辑网的数据冲突解决方法。该方法综合运用多角度的特征和规则，可有效提高冲突解决的准确度。另外，由于Markov逻辑网强大的表述能力，该方法可根据不同的数据冲突方便的添加和删除推理规则，具有良好的扩展性。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h4>分布式海量数据存储与分析</h4>
+                        <p>
+                            TariDB基于开源的Apache Hadoop平台，实现了对海量文本、图片、视频等结构化或非结构化数据的存储与分析。
+                            TariDB支持用户自定义数据结构，提供良好的增、删、改、查、统计等全面的数据管理接口。通过分布式存储系统自带的元数据查询功能以及在其基础上实现的高效二级索引，提供对于原始数据任意字段的快速检索。另外，通过快速模式匹配和关键字检索等技术实现了对于全字段的模糊查询。
+
+                        </p>
+                        <p>
+                            TariDB基于MapReduce分布式计算平台提供强大的分布式批处理能力，使对海量数据的分析成为可能。TariDB自身包含丰富的数据分析、挖掘模型，可以直接在智能交通等领域使用。同时支持对于图片、视频等数据的分析，提供提取图片、视频特征，图片与图片匹配、图片与视频匹配等功能。
+                        </p>
+
+                    </div>
+                    <div class="item">
+                        <h4>分布式实时计算技术</h4>
+                        <p>
+                            TariDB基于Actor-Model计算模型，构建分布式流数据处理平台，实现了对交通大数据中普遍存在的时空数据、传感数据等流数据的实时处理。TariDB流数据处理平台通过计算单元的自动构建，实现了对所有数据的内存计算，完全避免引入磁盘读写导致的I/O瓶颈，从而达到实时处理效果
+                        </p>
+                        <p>该平台具备如下两个主要特点：
+                            <br>
+                            1，计算是随着数据的产生而进行，是由“数据驱动”，即时产生即时分析；
+                            <br>
+                            2，数据的分析过程很快，延迟低至零点几秒到一秒以内，是实时的分析。
+                        </p>
+                        <p>
+                            另外，TariDB支持数据流上的数据查询检索，同时提供良好的接口供用户方便的自定义对于流数据的分布式处理算法。TariDB还解决了数据一旦丢失不可恢复的问题，实现了流数据处理平台的高可靠性。
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="adv">
+            <div class="container">
+                <div class="row">
+                    <h3>5大优势</h3>
+                    <div class="item">
+                        <div class="img">
+                            <img src="../img/five_1.png" alt="">
+                            <h4>海量存储与分析</h4>
+                        </div>
+                        <div class="co">
+                            <p>应用Hadoop形成海量存储，存储空间可达1,000,000GB，并可以通过简单的增加存储器实现线性扩展。</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="../img/five_2.png" alt="">
+                            <h4>极速检索与处理</h4>
+                        </div>
+                        <div class="co">
+                            <p>精确检索响应速度为0.3秒～1秒，模糊检索速度达到1.1亿条/秒，支持1000用户并发使用，并可进一步扩展。</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="../img/five_3.png" alt="">
+                            <h4>内置实时流处理</h4>
+                        </div>
+                        <div class="co">
+                            <p>拥有高速实时的数据处理速度，比对速度可达10亿次/秒，反馈实时结果，可扩展性强。</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="../img/five_4.png" alt="">
+                            <h4>易用二次开发</h4>
+                        </div>
+                        <div class="co">
+                            <p>根据用户的需求，提供易用的、有针对性的二次开发接口，更好的满足用户的需求，快速开发。</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="../img/five_5.png" alt="">
+                            <h4>快速安装与运维</h4>
+                        </div>
+                        <div class="co">
+                            <p>提供快速安装服务，并有专人负责技术指导；全面周到的运维措施，保证软件质量，提高软件系统性能。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="apply">
+            <div class="container">
+                <div class="row">
+
+                    <h3>行业应用</h3>
+                    <div class="item">
+                        <h4>金融行业应用</h4>
+                        <p>
+                            金融行业，交易、报价、业绩报告、消费者研究报告、官方统计数据公报、调查、新闻报道均会产生大量数据。金融企业IT基础设施要求易于数据的整合与集中、扩展与伸缩，以及管理与维护，同时还必须具备良好的可靠性、可控性和安全性；另外，部分金融业务存在实时性要求，如高频金融交易。
+                        </p>
+                        <p>
+                            TariDB平台采用分布式集群架构，具有极强线性扩展能力；平台采用业界内最广泛测试、部署的Hadoop版本，构建NameNode高可用系统，热备实现秒级切换，具有高稳定性；且平台具有强大的数据实时处理能力。由以上所述可见TariDB能够为金融行业提供优质的大数据服务。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h4>医疗行业应用</h4>
+                        <p>
+                            医疗行业盛产大数据，医疗信息数据呈几何倍数增长，数据来源包括财务数据、医疗影像、临床或业务类应用数据以及医疗文献等，这些数据的数据类型多样，包括结构化和非结构化数据，规模达PB、EB级，且非结构化信息占据极大比例。对于医疗机构来说，如何能够对海量医疗数据进行存储、管理、分析，并提供实时性支持，以满足当下临床工作的需求，从而使数据呈现价值，是一个挑战性问题。
+                        </p>
+                        <p>
+                            TariDB平台具备大数据的接入与融合功能，能够处理海量、异构数据的快速、统一接入，对于医疗数据极为适用；平台具备高效的检索机制和强大的数据实时处理能力，易于支持医疗数据的检索和实时处理需求。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h3>应急管理</h3>
+                        <p>
+                            现代社会面临具有明显复杂性特征、破坏性严重的非常规突发事件侵袭的可能日趋增大，危害不断升级，灾难的后果更趋严重，所以建立非常规突发事件应急管理服务体系极为必要。从信息处理角度来说，现有的应急管理面临着“信息孤岛”、信息传递方式落后、缺乏对应急数据融合的支持、对海量信息的快速实时处理能力不足等问题。
+                        </p>
+                        <p>
+                            TariDB平台提供便捷的数据接入、融合和共享服务，有助于应急管理各部门相关数据汇聚于云端，从而打破信息壁垒；平台提供高速检索功能，可应对应急大数据快速查询、分析需求；平台具备强大的数据实时处理能力，可应对突发事件的时效性需求。
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--<hr>-->
+<!--    <div id="gaia">
+        <h2>二、GAIA 智能数据处理和机器学习平台</h2>
+        <div class="container">
+            <div class="row">
+                <div class="item">
+                    <div class="img">
+                        &lt;!&ndash;<img src="../img/five_1.png" alt="">&ndash;&gt;
+                        <h4>模型一键部署</h4>
+                    </div>
+                    <div class="co">
+                        <p>用户需要将模型部署到实际生产环境中，GAIA支持以上方式生产的模型的一键部署以及与现有其他应用的集成。</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        &lt;!&ndash;<img src="../img/five_2.png" alt="">&ndash;&gt;
+                        <h4>模型自动调优</h4>
+                    </div>
+                    <div class="co">
+                        <p>模型开发者通常耗费大量时间来寻找合适的参数。GAIA平台通过Grid Search等方式，自动帮助用户选择模型的最优参数。</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        &lt;!&ndash;<img src="../img/five_3.png" alt="">&ndash;&gt;
+                        <h4>自动特征工程</h4>
+                    </div>
+                    <div class="co">
+                        <p>支持帮助用户自动选择模型所需特征，以便用户可以更多地关注其他重要步骤。</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        &lt;!&ndash;<img src="../img/five_4.png" alt="">&ndash;&gt;
+                        <h4>数据源导入工具</h4>
+                    </div>
+                    <div class="co">
+                        <p>自动完成数据全部的ETL过程，不需要单独在外部写程序。</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        &lt;!&ndash;<img src="../img/five_5.png" alt="">&ndash;&gt;
+                        <h4>机器学习算法库</h4>
+                    </div>
+                    <div class="co">
+                        <p>建立基于大数据平台的通用的机器学习算法库；基于Spark、TensorFlow等开源学习框架实现，支持大规模分布式机器学习。</p>
+                    </div>
+                </div>
+                <div class="item">
+                <div class="img">
+                    &lt;!&ndash;<img src="../img/five_5.png" alt="">&ndash;&gt;
+                    <h4>不需要编码的（code-free）可视化机器学习流程构建</h4>
+                </div>
+                <div class="co">
+                    <p>支持通过拖拽方式选择所需的操作（如数据转换、采样、模型选择等），构建完整的机器学习流程。进一步地，可以自动验证所构建机器学习流程的正确性。</p>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>-->
+
+
+
+
+
+
+
+
+   <!-- <div class="itemP">
+        <h3>治安交通智能化综合管控平台</h3>
+        <div class="infoP">
+            <h4>平台简介</h4>
+            <p>治安交通智能综合管控平台共建设“态势监控”、“稽查防控”等14个模块，涵盖28项功能，所示如下：</p>
+            <img src="./../img/p_1.png" alt="">
+            <p>该智能综合管控平台由两部分组成：分布式海量数据存储和分析子平台、分布式实时数据计算子平台。其综合架构图如下所示：</p>
+            <img src="./../img/p_2.png" alt="">
+        </div>
+        <div class="infoP">
+            <h4>分布式海量数据存储与分析子平台</h4>
+            <p>即Hadoop存储与分析，包括分布式文件系统HDFS和分布式数据库HBase。</p>
+            <p>HDFS文件系统具备如下特点：存储容量可达PB级别；用于海量存储，通过添加机器即可实现线性扩展；并行读写数据，速率可达十几G/秒。HBase数据库具备如下特点：面向列，降低了磁盘I/O开销，压缩比为原来的1/4至1/6，节省存储空间；支持多种数据类型；分布式，高并发。上述Hadoop和HBase所具备的的优势使得分布式海量数据存储与分析子平台具备以下特点：</p>
+            <p><span></span>分布式：充分发挥集群的整体计算、存储性能，具有极强的线性扩展能力；</p>
+            <p><span></span>稳定：采用业内最广泛测试、部署的稳定的Hadoop版本，构建NameNode高可用系统，热备实现秒级切换；</p>
+            <p><span></span>高效检索：平台内置了对交通数据所做的结构优化，精确检索记录、图片延迟在0.3~1秒以内，模糊搜索速度相对传统方案和Hadoop自身方案有很大提高，达1.1亿条/秒。</p>
+            <p>分布式海量数据存储与分析子平台能够支撑如下功能：</p>
+            <img src="./../img/p_3.png" alt="">
+        </div>
+        <div class="infoP">
+            <p>即大数据下的实时流处理平台，具备如下技术特点：</p>
+            <p><span></span>分布式：10亿次/秒的高速比对速度；扩展能力极强，增加服务器即可获得线性的计算性能增长。</p>
+            <p><span></span>实施比对：1000卡口产生的大数据量下，能保证在0.2秒~0.8秒即可产生报警、实时监控、预警、对比等的分析结果，最大化现场效应和捕捉战机能力。</p>
+            <p><span></span>智能化：平台内置了针对交通数据所做的结构优化，并将点位、网络、校时等因素考虑在内，在原始数据质量不高的情形下保持较高的结果准确度。</p>
+            <p>分布式实时数据计算子平台能够支撑如下功能：
+            </p>
+            <img src="./../img/p_4.png" alt="">
+        </div>
+    </div>
+    <div class="itemP">
+        <h4>治安交通智能化综合管控平台应用效果</h4>
+        <p>智能化综合管控平台通过两年稳定运行，起到了良好的应用效果。</p>
+        <img src="./../img/p_5.png" alt="">
+        
+    </div>-->
+
+
+
+</div>
+<!------------------/product---------------------->
+<!-------------------------------------------footer-------------------------------------------------------->
+<div id="footer">
+    <hr class="hr">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-3 item">
+                <h5>核心产品</h5>
+                <ul>
+                    <li><a href="./product.html">TariDB 平台</a></li>
+                    <li><a href="./productA.html">GAIA 平台</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3 item">
+                <h5>解决方案</h5>
+                <ul>
+                    <li><a href="./schemesj.html">智能审计分析</a> </li>
+                    <li><a href="./schemezc.html">公检监智能侦查</a></li>
+                    <li><a href="./schemefz.html">犯罪嫌疑度分析</a></li>
+                    <li><a href="./schemejt.html">观澜智能交通</a></li>
+
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3 item">
+                <h5>关于我们</h5>
+                <ul>
+                    <li><a href="./about-us.html">公司介绍</a></li>
+                    <li><a href="./about-us.html">创始人</a></li>
+                    <li><a href="./about-us.html">荣誉资质</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-3 item">
+                <h5>加入我们</h5>
+                <ul>
+                    <li><a href="./hadoop.html">Hadoop/HBase研发</a></li>
+                    <li><a href="java.html">高级JAVA研发</a></li>
+                    <li><a href="./alog.html">图像算法研发</a></li>
+                    <li><a href="./web.html">Web前端开发</a></li>
+                    <li><a href="./student.html">应届生/实习生</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="bottom">
+
+        <ul class="info">
+            <li class="active"><a href="javascript:;">法律声明</a>
+                <span>|</span>
+                <a href="javascript:;">隐私保护</a>
+                <span>|</span>
+                <a href="javascript:;">济南观澜数据公司版权所有 ©2012-2017</a>
+                <span>|</span>
+                <a href="javascript:;">鲁ICP备05019369号</a>
+            </li>
+        </ul>
+        <p><img src="./../img/jinghui.png" alt=""><span>鲁公网安备 37011202000211号</span></p>
+    </div>
+
+
+</div>
+
+
+<!----------------connectBox------------------------>
+
+<div id="connectBox">
+    <div class="show">
+        <img src="../img/phone.png" alt="">
+        <span>咨</span>
+        <span>询</span>
+
+        <div class="info">
+            <div class="co">
+                <p>
+                    联 &nbsp;系&nbsp; 人：李&nbsp;&nbsp;欣
+                </p>
+                <p>联系电话：0531-88796868</p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    13361002065</p>
+                <p>联系邮箱：lixin@gl-data.com</p>
+                <p>人才招聘：hr@gl-data.com</p>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+<!----------------/connectBox------------------------>
+
+
+<script src="./../js/jquery-3.3.1.js"></script>
+<script src="./../js/bootstrap.js"></script>
+<script src="./../js/index.js"></script>
+</body>
+</html>

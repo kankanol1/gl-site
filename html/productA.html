@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>观澜数据</title>
+    <link rel="shortcut icon" href="./../img/favicon.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="./../css/bootstrap.css">
+    <link rel="stylesheet" href="./../css/bootstrap-theme.css">
+    <link rel="stylesheet" href="./../css/reset.css">
+    <link rel="stylesheet" href="./../css/index.css">
+</head>
+<body>
+
+<!------------------------------------------header--------------------------------------------------->
+<div id="header">
+
+    <!---------------------------------------nav---------------------------------------------->
+    <nav class="navBarA">
+        <div class="img"><img src="./../img/logo.jpg" alt=""></div>
+        <div class="item">
+            <ul class="itemU">
+                <li class="item">
+                    <a href="./../index.html">首页</a>
+                </li>
+                <li class="active item">
+                    <a href="javascript:;">核心产品</a>
+                    <ul>
+                        <li class="er"><a href="./product.html">TariDB 平台</a></li>
+                        <li class="er"><a href="./productA.html">GAIA 平台</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a href="././scheme.html">解决方案</a>
+                    <ul>
+                        <li class="er"><a href="./schemesj.html">智能审计</a></li>
+                        <!--<li class="er"><a href="./schemezc.html">智能侦查</a></li>-->
+                        <!--<li class="er"><a href="./schemefz.html">嫌疑度分析</a></li>-->
+                        <li class="er"><a href="./schemejt.html">智能交通</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a href="./about-us.html">关于我们</a>
+                    <ul>
+                        <li class="er"><a href="./about-us.html">公司介绍</a></li>
+                        <li class="er"><a href="./about-us.html">创始人</a></li>
+                        <li class="er"><a href="./about-us.html">荣誉资质</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a href="./join-us.html">加入我们</a>
+                    <ul>
+                        <li class="er"><a href="./hadoop.html">Hadoop/HBase研发</a></li>
+                        <li class="er"><a href="./java.html">高级JAVA研发</a></li>
+                        <li class="er"><a href="./alog.html">图像算法研发</a></li>
+                        <li class="er"><a href="./web.html">Web前端开发</a></li>
+                        <li class="er"><a href="./student.html">应届生/实习生</a></li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <a href="./login.html">联系我们</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+</div>
+<!------------------------------------------bar--------------------------------------------------->
+
+<!------------------product---------------------->
+<div id="product">
+    <!--<div class="imgTop">-->
+        <img src="./../img/product2.jpg" alt="">
+<!--</div>-->
+    <h1>核心产品</h1>
+    <!--<hr>-->
+
+    <div id="tari">
+        <h2>GAIA 智能数据处理和机器学习平台</h2>
+
+        <hr>
+        <div class="intro">
+            <h3>产品介绍</h3>
+            <div>
+                <div>
+                    <p>
+                        GAIA人工智能生产线是面向一线业务人员简洁、易用的数据模型构建工具。使用非编程（code-free）、可视化交互方式即可挖掘多元异构数据，完成机器学习模型的构建，大幅降低了机器学习使用的门槛。
+                    </p>
+                </div>
+                <div>
+                    <img src="../img/chanpin.png" alt="">
+                </div>
+            </div>
+           
+
+        </div>
+
+        <div class="neng">
+            <h3>主要功能</h3>
+            <hr>
+            <div class="container">
+                <div class="row res">
+                    <div class="item">
+                        <h4>数据源导入工具</h4>
+                        <p class="mar">
+                            GAIA平台支持用户使用系统功能自动完成数据全部的ETL过程，不需要单独在外部写程序。这里，用户需要上传/提供Tabular Data。GAIA平台支持常见的数据模式（例如银行流水、通话记录、车辆通行记录、住宿记录，等等）加载，以及提供数据源与数据模式间的映射配置工具。进一步地，GAIA提供数据源预览，允许用户对数据源进行可视化探索；提供数据操作语言（Data Wrangling Language），使得用户可以实现如新列=列1-列2等操作。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h4>机器学习算法库</h4>
+                        <p class="mar">
+                            GAIA建立基于大数据平台的通用的机器学习算法库，包括典型的分类算法（如朴素贝叶斯、支持向量机、深度神经网络等），回归算法（如线性回归、逻辑回归等），聚类算法（如K均值聚类、层次聚类等），降维算法（如主成分分析算法、拉普拉斯特征映射等），等等。以上算法基于Spark、TensorFlow等开源学习框架实现，支持大规模分布式机器学习。除此之外，GAIA平台还支持对时空数据（如交警卡口系统中的车辆通行数据，社交网络中的用户签到数据等）进行深度挖掘，例如基于神经网络进行轨迹嵌入建模，将用户、位置、时间等属性向量化，用于下一个位置预测，兴趣点推荐，用户行为模式聚类等任务。
+                        </p>
+                    </div>
+                    <div class="item">
+                    <h4>不需要编码的（code-free）可视化机器学习流程构建</h4>
+                        <p class="mar">
+                            为方便用户根据具体应用基于机器学习算法快速搭建项目框架，GAIA支持用户通过拖拽方式选择所需的操作（如数据转换、采样、模型选择等），构建完整的机器学习流程。进一步地，GAIA可以自动验证所构建机器学习流程的正确性，让用户预览每一步操作结果，并对用户提供指引，这将大大降低人工智能应用开发的难度以及提高开发效率。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h4>自动特征工程</h4>
+                        <p class="mar">
+                            机器学习算法必须克服的最大技术障碍是他们需要处理数据才能工作 - 他们只能根据历史数据中隐含的模式进行预测。这些数据由相关变量组成，称为“特征”。如果构造的特征不能清晰地表征隐含模式，那么模型很难表现很好。提取这些特征的过程称为“特征工程”。构造有效的特征需要深厚的专业领域知识，这对于大部分模型开发者是不具备的。为此，GAIA支持帮助用户自动选择模型所需特征，以便用户可以更多地关注其他重要步骤。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h4>模型自动调优</h4>
+                        <p class="mar">
+                            机器学习算法通常包含很多参数，尤其是深度学习相关算法。同一个模型在不同的参数设置下表现会大相径庭。所以，模型开发者通常耗费大量时间来寻找合适的参数。为此，GAIA平台通过Grid Search等方式，自动帮助用户选择模型的最优参数。
+                        </p>
+                    </div>
+                    <div class="item">
+                        <h4>模型部署支持</h4>
+                        <p>
+                            模型开发完成后，用户需要将模型部署到实际生产环境中。因此，GAIA支持以上方式生产的模型的一键部署以及与现有其他应用的集成。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <img src="../img/gongneng.png" alt="">
+        </div>
+    </div>
+    <hr>
+
+</div>
+<!------------------/product---------------------->
+<!-------------------------------------------footer-------------------------------------------------------->
+<div id="footer">
+    <hr class="hr">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-3 item">
+                <h5>核心产品</h5>
+                <ul>
+                    <li><a href="./product.html">TariDB 平台</a></li>
+                    <li><a href="./productA.html">GAIA 平台</a></li>
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3 item">
+                <h5>解决方案</h5>
+                <ul>
+                    <li><a href="./schemesj.html">智能审计分析</a> </li>
+                    <li><a href="./schemezc.html">公检监智能侦查</a></li>
+                    <li><a href="./schemefz.html">犯罪嫌疑度分析</a></li>
+                    <li><a href="./schemejt.html">观澜智能交通</a></li>
+
+                </ul>
+            </div>
+            <div class="col-xs-6 col-sm-3 col-md-3 item">
+                <h5>关于我们</h5>
+                <ul>
+                    <li><a href="./about-us.html">公司介绍</a></li>
+                    <li><a href="./about-us.html">创始人</a></li>
+                    <li><a href="./about-us.html">荣誉资质</a></li>
+                </ul>
+            </div>
+
+            <div class="col-xs-6 col-sm-3 col-md-3 item">
+                <h5>加入我们</h5>
+                <ul>
+                    <li><a href="./hadoop.html">Hadoop/HBase研发</a></li>
+                    <li><a href="java.html">高级JAVA研发</a></li>
+                    <li><a href="./alog.html">图像算法研发</a></li>
+                    <li><a href="./web.html">Web前端开发</a></li>
+                    <li><a href="./student.html">应届生/实习生</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="bottom">
+
+        <ul class="info">
+            <li class="active"><a href="javascript:;">法律声明</a>
+                <span>|</span>
+                <a href="javascript:;">隐私保护</a>
+                <span>|</span>
+                <a href="javascript:;">济南观澜数据公司版权所有 ©2012-2017</a>
+                <span>|</span>
+                <a href="javascript:;">鲁ICP备05019369号</a>
+            </li>
+        </ul>
+        <p><img src="./../img/jinghui.png" alt=""><span>鲁公网安备 37011202000211号</span></p>
+    </div>
+
+
+</div>
+
+
+<!----------------connectBox------------------------>
+
+<div id="connectBox">
+    <div class="show">
+        <img src="../img/phone.png" alt="">
+        <span>咨</span>
+        <span>询</span>
+
+        <div class="info">
+            <div class="co">
+                <p>
+                    联 &nbsp;系&nbsp; 人：李&nbsp;&nbsp;欣
+                </p>
+                <p>联系电话：0531-88796868</p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    13361002065</p>
+                <p>联系邮箱：lixin@gl-data.com</p>
+                <p>人才招聘：hr@gl-data.com</p>
+            </div>
+
+        </div>
+
+
+    </div>
+</div>
+
+
+<!----------------/connectBox------------------------>
+
+
+<script src="./../js/jquery-3.3.1.js"></script>
+<script src="./../js/bootstrap.js"></script>
+<script src="./../js/index.js"></script>
+</body>
+</html>
